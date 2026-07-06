@@ -1,0 +1,31 @@
+{
+  "name": "my-first-repo",
+  "version": "1.0.0",
+  "description": "A simple photo album built with npm and Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkahn32/My-First-Repo.git"
+  },
+  "keywords": ["photo", "album", "vite"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jkahn32/My-First-Repo/issues"
+  },
+  "homepage": "https://github.com/jkahn32/My-First-Repo#readme",
+  "dependencies": {
+    "photoswipe": "^5.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-photo-album": "^2.4.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
