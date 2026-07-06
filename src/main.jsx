@@ -5,25 +5,25 @@ import './main.css';
 
 const photos = [
   {
-    src: '/IMG_5787 copy.JPG',
+    src: new URL('../IMG_5787 copy.JPG', import.meta.url).href,
     width: 1200,
     height: 800,
     alt: 'Photo 1',
   },
   {
-    src: '/Keenland Jockey copy.jpg',
+    src: new URL('../Keenland Jockey copy.jpg', import.meta.url).href,
     width: 1200,
     height: 800,
     alt: 'Photo 2',
   },
   {
-    src: '/Rafting Trip copy.jpg',
+    src: new URL('../Rafting Trip copy.jpg', import.meta.url).href,
     width: 1200,
     height: 800,
     alt: 'Photo 3',
   },
   {
-    src: '/reflection copy.jpg',
+    src: new URL('../reflection copy.jpg', import.meta.url).href,
     width: 1200,
     height: 800,
     alt: 'Photo 4',
